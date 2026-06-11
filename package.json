@@ -3,6 +3,24 @@
   "version": "1.0.0",
   "description": "Convert images to Unicode braille text art",
   "type": "module",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "PuppyOne",
+    "email": "zheng_xz@qq.com",
+    "url": "https://github.com/PuppyOne"
+  },
+  "homepage": "https://github.com/PuppyOne/braille-image",
+  "bugs": {
+    "url": "https://github.com/PuppyOne/braille-image/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuppyOne/braille-image.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "main": "./dist/index.mjs",
   "exports": {
     ".": {
@@ -33,12 +51,6 @@
     "tsdown": "^0.22.2",
     "typescript": "^6.0.3",
     "vitest": "^4.1.8"
-  },
-  "license": "MIT",
-  "author": "",
-  "repository": {
-    "type": "git",
-    "url": ""
   },
   "keywords": [
     "braille",
