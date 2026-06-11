@@ -11,6 +11,9 @@
     }
   },
   "types": "./dist/index.d.mts",
+  "bin": {
+    "braille-image": "./dist/cli.mjs"
+  },
   "files": [
     "dist"
   ],
