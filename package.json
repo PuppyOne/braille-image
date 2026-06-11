@@ -1,6 +1,6 @@
 {
   "name": "braille-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert images to Unicode braille text art",
   "type": "module",
   "license": "Apache-2.0",
